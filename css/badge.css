@@ -1,0 +1,50 @@
+@import url(typography.css);
+@import url(../resources/css/normalize.css);
+@import url(utils.css);
+
+textarea {
+  font-variant: normal;
+}
+
+.custom {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  padding: 5px;
+}
+
+.icon-container {
+  margin: 0 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.primary {
+  background-color: #dff0ff;
+  color: #2185d0;
+  -webkit-box-shadow: 0 0 0 1px #2185d0 inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #2185d0 inset, 0 0 0 0 transparent;
+}
+
+.error {
+  -webkit-box-shadow: 0 0 0 1px #e0b4b4 inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #e0b4b4 inset, 0 0 0 0 transparent;
+  background-color: #fff6f6;
+  color: #9f3a38;
+}
+
+.info {
+  background-color: #fff8db;
+  color: #b58105;
+  -webkit-box-shadow: 0 0 0 1px #b58105 inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #b58105 inset, 0 0 0 0 transparent;
+}
+
+.success {
+  -webkit-box-shadow: 0 0 0 1px #a3c293 inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #a3c293 inset, 0 0 0 0 transparent;
+  background-color: #fcfff5;
+  color: #2c662d;
+}

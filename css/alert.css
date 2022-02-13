@@ -1,0 +1,49 @@
+@import url(typography.css);
+@import url(../resources/css/normalize.css);
+@import url(utils.css);
+
+textarea {
+  font-variant: normal;
+}
+
+.flexBoxContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.alert {
+  position: relative;
+  min-height: 16px;
+  width: 30%;
+  margin: 16px 0;
+  padding: 16px 24px;
+  line-height: 22px;
+}
+
+.primary-alert {
+  background-color: #dff0ff;
+  color: #2185d0;
+  -webkit-box-shadow: 0 0 0 1px #2185d0 inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #2185d0 inset, 0 0 0 0 transparent;
+}
+
+.error-alert {
+  -webkit-box-shadow: 0 0 0 1px #e0b4b4 inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #e0b4b4 inset, 0 0 0 0 transparent;
+  background-color: #fff6f6;
+  color: #9f3a38;
+}
+
+.info-alert {
+  background-color: #fff8db;
+  color: #b58105;
+  -webkit-box-shadow: 0 0 0 1px #b58105 inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #b58105 inset, 0 0 0 0 transparent;
+}
+
+.success-alert {
+  -webkit-box-shadow: 0 0 0 1px #a3c293 inset, 0 0 0 0 transparent;
+  box-shadow: 0 0 0 1px #a3c293 inset, 0 0 0 0 transparent;
+  background-color: #fcfff5;
+  color: #2c662d;
+}

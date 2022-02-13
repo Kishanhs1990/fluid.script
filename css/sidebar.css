@@ -1,0 +1,55 @@
+@import url(typography.css);
+@import url(../resources/css/normalize.css);
+@import url(utils.css);
+
+textarea {
+  font-variant: normal;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+  border-right: 1px solid var(--secondary-color);
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--secondary-color);
+  display: block;
+}
+
+.sidebar a:hover {
+  background: var(--cta-color);
+  color: var(--secondary-color);
+}
+
+.activeClass {
+  background: var(--cta-color);
+  color: var(--secondary-color);
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  /* padding: 20px 30px; */
+  padding-right: 50px;
+  padding-left: 30px;
+  background-color: var(--secondary-color);
+  height: 100vh;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
