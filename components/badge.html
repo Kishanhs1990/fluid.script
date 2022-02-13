@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Fluid Script Kit" />
+    <meta name="keywords" content="UI/UX, Design Pattern, Design Kit" />
+    <meta name="author" content="Kishan HS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../resources/js/jquery-3.6.0.min.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/bagde.js"></script>
+    <script src="../resources/js/clipboard.min.js"></script>
+    <link rel="stylesheet" href="../css/badge.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
+    <link rel="stylesheet" href="../css/utils.css" />
+    <title>Badge</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../resources/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="sidebar" id="navList">
+      <h3 class="flexBox">Components</h3>
+      <a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="../components/avatar.html"
+        ><i class="fa fa-fw fa-user"></i> Avatar</a
+      >
+      <a href="../components/alert.html"
+        ><i class="fa fa-fw fa-warning"></i> Alert</a
+      >
+      <a href="../components/badge.html"
+        ><i class="fa fa-fw fa-id-badge"></i> Badge</a
+      >
+      <a href="../components/button.html"
+        ><i class="fa fa-fw fa-envelope"></i> Button</a
+      >
+      <a href="../components/card.html"
+        ><i class="fa fa-fw fa-address-card"></i> Card
+      </a>
+      <a href="../components/image.html"
+        ><i class="fa fa-fw fa-photo"></i> Image</a
+      >
+      <a href="../components/input.html"
+        ><i class="fa fa-fw fa-file-text"></i> Input</a
+      >
+    </div>
+
+    <div class="main">
+      <h1 class="header-styled">Badge</h1>
+      <p>
+        Badges are used to inform users of the status of an object or of an
+        action that’s been taken.
+      </p>
+      <p>
+        Badges are available in 4 different severities primary, error, success
+        and info.
+      </p>
+      <div class="icon-container">
+        <p>
+          <i class="fa fa-certificate fa-2x primary" aria-hidden="true"></i>
+        </p>
+        <p>
+          <i class="fa fa-certificate fa-2x success" aria-hidden="true"></i>
+        </p>
+        <p><i class="fa fa-certificate fa-2x info" aria-hidden="true"></i></p>
+        <p><i class="fa fa-certificate fa-2x error" aria-hidden="true"></i></p>
+      </div>
+      <select>
+        <option value="0x" selected>Select Severities:</option>
+        <option value="1x">Primary</option>
+        <option value="2x">Success</option>
+        <option value="3x">Info</option>
+        <option value="4x">Error</option>
+      </select>
+      <div id="textarea-container" class="copy-container">
+        <textarea class="code-highlight" rows="1" readonly>
+        Use the dropdown to get your component </textarea
+        >
+        <button class="copy-button copy-code">Copy</button>
+      </div>
+      <div class="footer-container">
+        <a class="prev-button" href="./alert.html">&#60; Alert</a>
+        <a class="next-button" href="./button.html">Button &#62;</a>
+      </div>
+    </div>
+  </body>
+</html>

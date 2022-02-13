@@ -1,0 +1,22 @@
+@import url(typography.css);
+@import url(../resources/css/normalize.css);
+@import url(utils.css);
+
+textarea {
+  font-variant: normal;
+}
+
+.custom {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  padding: 5px;
+}
+
+.icon-container {
+  margin: 0 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
