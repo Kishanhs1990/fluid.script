@@ -1,0 +1,42 @@
+@import url(typography.css);
+@import url(../resources/css/normalize.css);
+@import url(utils.css);
+
+textarea {
+  font-variant: normal;
+}
+
+.flexBoxContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-input {
+  min-height: 1rem;
+  width: 30%;
+  margin: 1rem 0;
+  padding: 1rem 1.5rem;
+  line-height: 1.375rem;
+  border-radius: 0.313rem;
+}
+
+.text-input-outlined {
+  min-width: 15rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.text-input-filled {
+  min-width: 15rem;
+  background-color: var(--code-highlight);
+  color: var(--primary-color);
+}
+
+.text-input-standard {
+  min-width: 15rem;
+  color: var(--primary-color);
+  border-radius: unset;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  outline: none;
+}

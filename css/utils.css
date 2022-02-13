@@ -31,11 +31,11 @@ body {
   --alert-success-bg: #fcfff5;
   --alert-success: #2c662d;
 
-  --font-size-xsmall: 8px;
-  --font-size-small: 16px;
-  --font-size-medium: 24px;
-  --font-size-large: 32px;
-  --font-size-xlarge: 48px;
+  --font-size-xsmall: 0.5rem;
+  --font-size-small: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+  --font-size-xlarge: 3rem;
 
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -51,7 +51,7 @@ body {
 }
 
 .button-container {
-  margin-top: 48px;
+  margin-top: 3rem;
 }
 
 .footer-container {
@@ -64,11 +64,11 @@ body {
   background: var(--cta-color);
   border: 1px solid var(--cta-color);
   color: var(--secondary-color);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   cursor: pointer;
   font-size: var(--font-size-medium);
-  padding: 8px;
-  margin-right: 20px;
+  padding: 0.5rem;
+  margin-right: 1.25rem;
   text-decoration: none;
 }
 
@@ -76,26 +76,26 @@ body {
   background: var(--primary-color);
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   text-decoration: none;
   cursor: pointer;
   font-size: var(--font-size-medium);
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .next-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 30px;
+  max-height: 1.875rem;
   background: var(--cta-color);
   border: 1px solid var(--cta-color);
   color: var(--secondary-color);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   cursor: pointer;
   font-size: var(--font-size-small);
-  padding: 5px;
-  margin-right: 20px;
+  padding: 0.313rem;
+  margin-right: 1.25rem;
   text-decoration: none;
 }
 
@@ -103,12 +103,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 30px;
-  padding: 5px;
+  max-height: 1.875rem;
+  padding: 0.313rem;
   background: var(--secondary-color);
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   text-decoration: none;
   cursor: pointer;
   font-size: var(--font-size-small);
@@ -119,9 +119,9 @@ body {
 }
 
 .code-highlight {
-  padding: 10px;
+  padding: 0.625rem;
   width: 100%;
-  margin: 20px 0;
+  margin: 1.25rem 0;
   background-color: var(--secondary-color);
   color: var(--cta-color);
   border: 1px solid var(--primary-color);
@@ -129,7 +129,7 @@ body {
 }
 
 .copy-code {
-  min-height: 40px;
+  min-height: 2.5rem;
   background-color: var(--cta-secondary-color);
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
@@ -148,8 +148,8 @@ select:not([multiple]) {
   background-position: right 50%;
   background-repeat: no-repeat;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
-  padding: 8px;
-  padding-right: 24px;
+  padding: 0.5rem;
+  padding-right: 1.5rem;
   border-radius: 0;
   text-transform: uppercase;
 }

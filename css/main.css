@@ -23,7 +23,7 @@ ul {
 }
 
 .margin-left {
-  margin-left: 28px;
+  margin-left: 1.75rem;
 }
 
 .font-color {
@@ -31,7 +31,7 @@ ul {
 }
 
 .banner-styled {
-  font-size: 80px;
+  font-size: 5rem;
   font-variant: small-caps;
 }
 
@@ -40,7 +40,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .font-variant {

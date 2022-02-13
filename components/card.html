@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Fluid Script Kit" />
+    <meta name="keywords" content="UI/UX, Design Pattern, Design Kit" />
+    <meta name="author" content="Kishan HS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../resources/js/jquery-3.6.0.min.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/card.js"></script>
+    <script src="../resources/js/clipboard.min.js"></script>
+    <link rel="stylesheet" href="../css/card.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
+    <link rel="stylesheet" href="../css/utils.css" />
+    <title>Card</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../resources/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="sidebar" id="navList">
+      <h3 class="flexBox">Components</h3>
+      <a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="../components/avatar.html"
+        ><i class="fa fa-fw fa-user"></i> Avatar</a
+      >
+      <a href="../components/alert.html"
+        ><i class="fa fa-fw fa-warning"></i> Alert</a
+      >
+      <a href="../components/badge.html"
+        ><i class="fa fa-fw fa-id-badge"></i> Badge</a
+      >
+      <a href="../components/button.html"
+        ><i class="fa fa-fw fa-envelope"></i> Button</a
+      >
+      <a href="../components/card.html"
+        ><i class="fa fa-fw fa-address-card"></i> Card
+      </a>
+      <a href="../components/image.html"
+        ><i class="fa fa-fw fa-photo"></i> Image</a
+      >
+      <a href="../components/input.html"
+        ><i class="fa fa-fw fa-file-text"></i> Input</a
+      >
+    </div>
+
+    <div class="main">
+      <h1 class="header-styled">Card</h1>
+      <p>
+        Image component for displaying different types of images, including
+        network images, static resources, temporary local images, and images
+        from local disk, such as the camera roll.
+      </p>
+      <p>
+        Cards are available in 2 different variants horizontal and vertical.
+      </p>
+      <div class="flexBoxContainer">
+        <div class="card horizontal-card">
+          <h4>Online store dashboard</h4>
+          <p>View a summary of your online store’s performance.</p>
+        </div>
+        <div class="card vertical-card">
+          <h4>Online store dashboard</h4>
+          <p>View a summary of your online store’s performance.</p>
+        </div>
+      </div>
+      <select>
+        <option value="0x" selected>Select variants:</option>
+        <option value="1x">Horizontal</option>
+        <option value="2x">Vertical</option>
+      </select>
+      <div id="textarea-container" class="copy-container">
+        <textarea class="code-highlight" rows="1" readonly>
+        Use the dropdown to get your component </textarea
+        >
+        <button class="copy-button copy-code">Copy</button>
+      </div>
+      <div class="footer-container">
+        <a class="prev-button" href="./button.html">&#60; Button</a>
+        <a class="next-button" href="./image.html">Image &#62;</a>
+      </div>
+    </div>
+  </body>
+</html>
