@@ -20,6 +20,16 @@ body {
   --code-highlight: #d3d3d3;
   --cta-color: #2d85f3;
   --cta-secondary-color: #fb4a9d;
+  --alert-primary-bg: #dff0ff;
+  --alert-primary: #2185d0;
+  --alert-error: #9f3a38;
+  --alert-error-bg: #fff6f6;
+  --alert-error-shd: #e0b4b4;
+  --alert-info: #b58105;
+  --alert-info-bg: #fff8db;
+  --alert-success-shd: #a3c293;
+  --alert-success-bg: #fcfff5;
+  --alert-success: #2c662d;
 
   --font-size-xsmall: 8px;
   --font-size-small: 16px;
