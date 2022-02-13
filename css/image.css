@@ -1,0 +1,39 @@
+@import url(typography.css);
+@import url(../resources/css/normalize.css);
+@import url(utils.css);
+
+textarea {
+  font-variant: normal;
+}
+
+.flexBoxContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  background-color: rgba(211, 211, 211, 0.5);
+  margin-bottom: 10px;
+}
+
+.image {
+  background-color: var(--secondary-color);
+  font-size: var(--font-size-small);
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(23, 24, 24, 0.05);
+}
+
+.image-square {
+  width: 200px;
+  height: 150px;
+}
+
+.image-circular {
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+}
